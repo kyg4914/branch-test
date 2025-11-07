@@ -14,6 +14,8 @@ public class Main {
 			System.out.println("*****************************************");
 			System.out.print("[1]계좌 신설 [2]잔액 확인 [3]입금 [4]출금 [5]종료 [6]관리자 기능>> ");
 			System.out.println("*****************************************");
+			
+			System.out.println("테스트");
 
 			int menu = sc.nextInt();
 			if(menu == 1) {
