@@ -10,8 +10,11 @@ public class Main {
 		ATM atm = new ATM();
 		
 		while(true) {
+
+			System.out.println("*****************************************");
 			System.out.print("[1]계좌 신설 [2]잔액 확인 [3]입금 [4]출금 [5]종료 [6]관리자 기능>> ");
-			
+			System.out.println("*****************************************");
+
 			int menu = sc.nextInt();
 			if(menu == 1) {
 				System.out.print("이름 >> ");
