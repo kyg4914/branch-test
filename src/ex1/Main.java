@@ -19,6 +19,7 @@ public class Main {
 
 			int menu = sc.nextInt();
 			if(menu == 1) {
+				System.out.println("계좌 신설 메뉴 선택");
 				System.out.print("이름 >> ");
 				String name = sc.next();
 				System.out.print("계좌번호 >> ");
